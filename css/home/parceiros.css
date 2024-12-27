@@ -1,6 +1,7 @@
 .parceiros {
     padding-top: 60px;
     padding-top: 120px;
+    margin-bottom: 20px;
 }
 
 .parceiros h2 {
@@ -8,7 +9,7 @@
 }
 
 .parceiros ul {
-    padding: 0 20px;
+    padding: 0 0px;
     max-width: 1400px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -34,9 +35,13 @@
     border-top: 2px solid var(--cor-2);
 }
 
-@media (max-witdh: 800px) {
+@media (max-width: 800px) {
     .parceiros {
         padding-bottom: 60px;
+    }
+
+    .parceiros li {
+        padding: 20px;
     }
 
     .parceiros h2 {
