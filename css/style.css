@@ -23,7 +23,9 @@
 
 /* Bicicleta*/
 
-@import url(./bicicletas/bicicleta/bicicleta.css);
+@import url(./bicicleta/bicicleta.css);
+@import url(./bicicleta/bicicleta.css);
+@import url(./bicicleta/seguro.css);
 
 /* Seguros*/
 
