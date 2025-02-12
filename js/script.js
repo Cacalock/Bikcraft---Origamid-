@@ -65,6 +65,6 @@ galeria.forEach(eventosGaleria);
 if (window.SimpleAnime) {
     new SimpleAnime();
 }
-if (window.SimpleAnime) {
+if (window.ClipboardJS) {
     new Clipboard(".introducao-conteudo p");
 }
